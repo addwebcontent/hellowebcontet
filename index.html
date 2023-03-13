@@ -18,29 +18,32 @@
             <span class="navbar-toggle-icon"></span>
           </button>
           <div class="navbar-links">
-            <a class="navbar-link" href="#">Link 1</a>
-            <a class="navbar-link" href="#">Link 2</a>
-            <a class="navbar-link" href="#">Link 3</a>
+            <a class="navbar-link" href="#about">About</a>
+            <a class="navbar-link" href="#work">My Work</a>
+            <a class="navbar-link" href="#skills">My Skills</a>
           </div>
         </div>
       </nav>
     </header>
     <main>
-		<section>
+		<section id="about">
 			<h2>About Me</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, ex ac tempor euismod, nunc urna molestie sapien, ac varius ex nunc ac mauris. Suspendisse vulputate, ipsum nec vestibulum molestie, libero purus interdum risus, ut varius odio turpis a nibh.</p>
 		</section>
 		
-		<section>
+		<section id="work">
 			<h2>My Work</h2>
 			<div class="gallery">
 				<img src="images/image1.jpg" alt="Image 1">
 				<img src="images/image2.jpg" alt="Image 2">
 				<img src="images/image3.jpg" alt="Image 3">
+				<img src="images/image4.jpg" alt="Image 4">
+				<img src="images/image5.jpg" alt="Image 5">
+				<img src="images/image6.jpg" alt="Image 6">
 			</div>
 		</section>
 		
-		<section>
+		<section id="skills">
 			<h2>My Skills</h2>
 			<ul>
 				<li>HTML</li>
@@ -56,17 +59,7 @@
 	<footer>
 		<p>Copyright © 2023
 	</footer>
-    
-      <script>
-		const navbarToggle = document.querySelector('.navbar-toggle');
-			const navbarLinks = document.querySelector('.navbar-links');
-
-			navbarToggle.addEventListener('click', function () {
-				navbarToggle.classList.toggle('active');
-				navbarLinks.classList.toggle('show');
-});
-
-	  </script>
+   <script src="scripts.js"></script>
 </body>
 
 </html>
