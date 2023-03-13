@@ -174,7 +174,7 @@ ul li {
   .navbar-link {
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     margin-left: 30px;
   }
@@ -220,3 +220,8 @@ ul li {
     }
   }
   
+footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
